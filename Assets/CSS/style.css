@@ -1,0 +1,69 @@
+#body {
+  font-family: "Nunito", sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1534794048419-48e110dca88e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2148&q=80);
+}
+
+.cities {
+  height: 100%;
+  width: 300px;
+  position: inherit;
+  color: white;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: slategray;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border: solid 10px;
+}
+#weather {
+  margin-left: 175px;
+  padding: 10px 10px;
+}
+
+#heading {
+  display: flex;
+  text-align: center;
+  margin: 30px;
+  font-size: 100px;
+  background-color: lightseagreen;
+  font-family: "Nunito", sans-serif;
+}
+
+h3 {
+  margin: 5px;
+  font-family: "Lora", serif;
+}
+
+#commonCities {
+  margin: 10px;
+  cursor: pointer;
+}
+
+#currentDay {
+  border-radius: 3px;
+  padding: 10px;
+  font-weight: bolder;
+  border: 5px solid black;
+}
+
+#forcast .days div {
+  padding: 5px;
+  background-color: goldenrod;
+  color: black;
+  font-weight: bolder;
+  border-radius: 10px;
+  margin: 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
