@@ -27,3 +27,5 @@ Date
 Icon image (visual representation of weather conditions)
 Temperature
 Humidity
+
+live app link https://anakristina1101.github.io/WeatherAPP/
