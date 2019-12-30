@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./Assets/CSS/normalize.css" />
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora|Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <title>Weather Dashboard</title>
+  </head>
+  <body id="body">
+    <div class="page" id="container">
+      <section class="cities">
+        <h3>Search City:</h3>
+        <div id="search">
+          <input
+            type="text"
+            name="searchText"
+            list="city_list"
+            autocomplete="on"
+          />
+          <button type="button">Search</button>
+        </div>
+        <div id="searchError"></div>
+
+        <div id="commonCities">
+          <div>Chicago</div>
+          <div>Los Angeles</div>
+          <div>New York</div>
+          <div>New Orleans</div>
+          <div>Houston</div>
+        </div>
+      </section>
+
+      <section id="weather">
+        <heading>
+          <h1 id="heading">Your Weather Today</h1>
+        </heading>
+
+        <section id="currentDay"></section>
+
+        <section id="forcast">
+          <h2>7 day Forecast:</h2>
+          <div class="days"></div>
+        </section>
+      </section>
+    </div>
+    <script src="./Assets/JS/apps.js"></script>
+  </body>
+</html>
